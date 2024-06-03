@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Element Plus Vite Starter</title>
+  <!-- element css cdn, if you use custom theme, remove it. -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-plus/dist/index.css" /> -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: rgb(240, 230, 240);
+    }
+
+    .img {
+      width: 100px;
+      /* 放大图片宽度 */
+      height: 100px;
+      /* 放大图片高度 */
+      position: absolute;
+      background-image: url('/assets/IMG_1383-e14e92c2.GIF');
+      background-size: cover;
+      z-index: 1000;
+      /* 高于其他元素的 z-index */
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-3f7c6146.js"></script>
+  <link rel="stylesheet" href="/assets/index-d174aeda.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  
+
+  
+  <script>
+    let img = document.querySelector('.img');
+    // 以下JavaScript代码保持不变
+    let deg = 0;
+    let imgx = 0;
+    let imgy = 0;
+    let imgl = 0;
+    let imgt = 0;
+    let y = 0;
+    let index = 0;
+
+    window.addEventListener('mousemove', function (event) {
+      imgx = event.clientX - img.offsetLeft - img.clientWidth / 2;
+      imgy = event.clientY - img.offsetTop - img.clientHeight / 2;
+      deg = 360 * Math.atan(imgy / imgx) / (2 * Math.PI);
+
+      if (img.offsetLeft < event.clientX) {
+        y = -180;
+      } else {
+        y = 0;
+      }
+
+      index = 0;
+    });
+
+    setInterval(() => {
+      img.style.transform = `rotateZ(${deg}deg) rotateY(${y}deg)`;
+
+      if (index < 50) {
+        imgl += imgx / 50;
+        imgt += imgy / 50;
+      }
+
+      img.style.left = imgl + 'px';
+      img.style.top = imgt + 'px';
+      index++;
+    }, 10);
+  </script>
+</body>
+
+</html>

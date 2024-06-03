@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d3ba3ff-d47f-4920-93b3-ffe39256c2dc" name="Default Changelist" comment="lxq" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2JfWA4YtzBUzjZiS90CCGaw5mUj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ideagit/supnuevo-download&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3321839&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.23014256&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\teach\java2\java-server\src\main\resources" />
+      <recent name="D:\teach\java2\java-server\src\main\java\org\fatmansoft\teach\service" />
+      <recent name="D:\teach\java2\java-server\src\main\resources\static\html" />
+      <recent name="D:\teach\java2\java-server\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\teach\java2\java-server\src\main\resources\static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.fatmansoft.teach.websocket" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.fatmansoft.teach.models" />
+      <recent name="org.fatmansoft.teach.util" />
+      <recent name="org.fatmansoft.teach" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.cleanPackage">
+    <configuration name="PDFTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fatmansoft.teach.itextpdf.PDFTest" />
+      <module name="java-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fatmansoft.teach.itextpdf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootSecurityJwtApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fatmansoft.teach.SpringBootSecurityJwtApplication" />
+      <module name="java-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fatmansoft.teach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fatmansoft.teach.itextpdf.TestPDF" />
+      <module name="java-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fatmansoft.teach.itextpdf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cleanPackage" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.cleanPackage" />
+      <item itemvalue="应用程序.SpringBootSecurityJwtApplication" />
+      <item itemvalue="应用程序.PDFTest" />
+      <item itemvalue="应用程序.TestPDF" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\14983\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d3ba3ff-d47f-4920-93b3-ffe39256c2dc" name="Default Changelist" comment="" />
+      <created>1672469471180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672469471180</updated>
+    </task>
+    <task id="LOCAL-00020" summary="lxq">
+      <created>1679823538851</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679823538851</updated>
+    </task>
+    <task id="LOCAL-00021" summary="lxq">
+      <created>1679823560662</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679823560662</updated>
+    </task>
+    <task id="LOCAL-00022" summary="lxq">
+      <created>1680219777114</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680219777114</updated>
+    </task>
+    <task id="LOCAL-00023" summary="lxq">
+      <created>1680318520547</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1680318520547</updated>
+    </task>
+    <task id="LOCAL-00024" summary="lxq">
+      <created>1680426364400</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1680426364400</updated>
+    </task>
+    <task id="LOCAL-00025" summary="lxq">
+      <created>1680512013126</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1680512013126</updated>
+    </task>
+    <task id="LOCAL-00026" summary="lxq">
+      <created>1680592467091</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1680592467091</updated>
+    </task>
+    <task id="LOCAL-00027" summary="lxq">
+      <created>1681021961139</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1681021961139</updated>
+    </task>
+    <task id="LOCAL-00028" summary="lxq">
+      <created>1681044267519</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681044267519</updated>
+    </task>
+    <task id="LOCAL-00029" summary="lxq">
+      <created>1681162639534</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1681162639534</updated>
+    </task>
+    <task id="LOCAL-00030" summary="lxq">
+      <created>1681218398365</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1681218398365</updated>
+    </task>
+    <task id="LOCAL-00031" summary="lxq">
+      <created>1681464125039</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681464125039</updated>
+    </task>
+    <task id="LOCAL-00032" summary="lxq">
+      <created>1681464132023</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681464132023</updated>
+    </task>
+    <task id="LOCAL-00033" summary="lxq">
+      <created>1682325062080</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1682325062080</updated>
+    </task>
+    <task id="LOCAL-00034" summary="lxq">
+      <created>1682553746118</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1682553746118</updated>
+    </task>
+    <task id="LOCAL-00035" summary="lxq">
+      <created>1682924775419</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1682924775419</updated>
+    </task>
+    <task id="LOCAL-00036" summary="lxq">
+      <created>1683160867265</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1683160867265</updated>
+    </task>
+    <task id="LOCAL-00037" summary="lxq">
+      <created>1683518373836</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1683518373836</updated>
+    </task>
+    <task id="LOCAL-00038" summary="lxq">
+      <created>1683772332849</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1683772332849</updated>
+    </task>
+    <task id="LOCAL-00039" summary="lxq">
+      <created>1683804859976</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1683804859976</updated>
+    </task>
+    <task id="LOCAL-00040" summary="lxq">
+      <created>1684034428742</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1684034428742</updated>
+    </task>
+    <task id="LOCAL-00041" summary="lxq">
+      <created>1684109801475</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1684109801475</updated>
+    </task>
+    <task id="LOCAL-00042" summary="lxq">
+      <created>1684131758379</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1684131758379</updated>
+    </task>
+    <task id="LOCAL-00043" summary="lxq">
+      <created>1684238601832</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1684238601832</updated>
+    </task>
+    <task id="LOCAL-00044" summary="lxq">
+      <created>1684275931230</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1684275931230</updated>
+    </task>
+    <task id="LOCAL-00045" summary="lxq">
+      <created>1684498428386</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1684498428386</updated>
+    </task>
+    <task id="LOCAL-00046" summary="lxq">
+      <created>1684550386641</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1684550386641</updated>
+    </task>
+    <task id="LOCAL-00047" summary="lxq">
+      <created>1684583386639</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1684583386639</updated>
+    </task>
+    <task id="LOCAL-00048" summary="lxq">
+      <created>1684655210635</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1684655210635</updated>
+    </task>
+    <task id="LOCAL-00049" summary="lxq">
+      <created>1684659346158</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1684659346158</updated>
+    </task>
+    <task id="LOCAL-00050" summary="lxq">
+      <created>1685931828609</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1685931828610</updated>
+    </task>
+    <task id="LOCAL-00051" summary="lxq">
+      <created>1685931842555</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1685931842555</updated>
+    </task>
+    <task id="LOCAL-00052" summary="lxq">
+      <created>1687080091501</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1687080091502</updated>
+    </task>
+    <task id="LOCAL-00053" summary="lxq">
+      <created>1687125407719</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1687125407719</updated>
+    </task>
+    <task id="LOCAL-00054" summary="lxq">
+      <created>1687637068561</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1687637068561</updated>
+    </task>
+    <task id="LOCAL-00055" summary="lxq">
+      <created>1687656160434</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1687656160434</updated>
+    </task>
+    <task id="LOCAL-00056" summary="lxq">
+      <created>1687724641169</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1687724641169</updated>
+    </task>
+    <task id="LOCAL-00057" summary="lxq">
+      <created>1688368652980</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1688368652981</updated>
+    </task>
+    <task id="LOCAL-00058" summary="lxq">
+      <created>1688429557065</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1688429557066</updated>
+    </task>
+    <task id="LOCAL-00059" summary="lxq">
+      <created>1688457285674</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1688457285674</updated>
+    </task>
+    <task id="LOCAL-00060" summary="lxq">
+      <created>1688539672463</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1688539672463</updated>
+    </task>
+    <task id="LOCAL-00061" summary="lxq">
+      <created>1688609693985</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1688609693985</updated>
+    </task>
+    <task id="LOCAL-00062" summary="lxq">
+      <created>1688628605601</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1688628605601</updated>
+    </task>
+    <task id="LOCAL-00063" summary="lxq">
+      <created>1688634350092</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1688634350092</updated>
+    </task>
+    <task id="LOCAL-00064" summary="lxq">
+      <created>1690413350798</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1690413350798</updated>
+    </task>
+    <task id="LOCAL-00065" summary="lxq">
+      <created>1690672957690</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1690672957690</updated>
+    </task>
+    <task id="LOCAL-00066" summary="lxq">
+      <created>1691701745600</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1691701745600</updated>
+    </task>
+    <task id="LOCAL-00067" summary="lxq">
+      <created>1691702106207</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1691702106207</updated>
+    </task>
+    <task id="LOCAL-00068" summary="lxq">
+      <created>1691892973271</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1691892973271</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lxq" />
+    <option name="LAST_COMMIT_MESSAGE" value="lxq" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/service/TestService.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/controllers/TeamController.java</url>
+          <line>538</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/controllers/StudentController.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/controllers/TeamController.java</url>
+          <line>396</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/controllers/TeamController.java</url>
+          <line>567</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/controllers/MaterialController.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/controllers/TeamController.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/service/SystemService.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fatmansoft/teach/controllers/StudentController.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_server$SpringBootSecurityJwtApplication.ic" NAME="SpringBootSecurityJwtApplication Coverage Results" MODIFIED="1672470846891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.fatmansoft.teach.*</FILTER>
+    </SUITE>
+  </component>
+</project>
